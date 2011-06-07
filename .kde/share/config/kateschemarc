@@ -1,0 +1,43 @@
+[Chiggs]
+Color Background=88,88,88
+Color Highlighted Bracket=240,247,255
+Color Highlighted Line=100,100,100
+Color Icon Bar=224,223,222
+Color Line Number=20,19,18
+Color MarkType1=0,0,128
+Color MarkType2=255,0,0
+Color MarkType3=255,255,0
+Color MarkType4=255,0,255
+Color MarkType5=160,160,164
+Color MarkType6=0,255,0
+Color MarkType7=255,0,0
+Color Selection=160,160,160
+Color Tab Marker=210,210,210
+Color Template Background=204,204,204
+Color Template Editable Placeholder=204,255,204
+Color Template Focused Editable Placeholder=102,255,102
+Color Template Not Editable Placeholder=255,204,204
+Color Word Wrap Marker=237,237,237
+Font=Monospace,8,-1,5,50,0,0,0,0,0
+
+[kate - Normal]
+Color Background=88,88,88
+Color Highlighted Bracket=240,247,255
+Color Highlighted Line=128,128,128
+Color Icon Bar=224,223,222
+Color Line Number=20,19,18
+Color MarkType1=0,0,128
+Color MarkType2=255,0,0
+Color MarkType3=255,255,0
+Color MarkType4=255,0,255
+Color MarkType5=160,160,164
+Color MarkType6=0,255,0
+Color MarkType7=255,0,0
+Color Selection=160,160,160
+Color Tab Marker=210,210,210
+Color Template Background=204,204,204
+Color Template Editable Placeholder=204,255,204
+Color Template Focused Editable Placeholder=102,255,102
+Color Template Not Editable Placeholder=255,204,204
+Color Word Wrap Marker=237,237,237
+Font=Monospace,8,-1,5,50,0,0,0,0,0
