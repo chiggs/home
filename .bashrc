@@ -30,6 +30,10 @@ function grepcx () {
     egrep --color=auto -nrs --include=\*.cc --include=\*.cpp --include=\*.cxx "$1" *
     }
 
+function grepsv () {
+    find . -name "*.sv" | xargs egrep --color=auto -nrs "$1"
+    }
+
 function greppy () {
     find . -name "*.py" | xargs egrep --color=auto -nrs "$1"
     }
@@ -51,19 +55,7 @@ function x {
 # Project setup stuff
 #######################################
 
-alias @fware='cd $FWARE'
 
-PS1="[\u@\h] \w: "
-
-if [[ $SSH_CLIENT ]]; then
-        temp=( $SSH_CLIENT )
-        export DISPLAY=${temp[0]}:0.0
-        unset temp
-elif [[ $REMOTEHOST ]]; then
-        export DISPLAY=$(dig +short ${REMOTEHOST}):0.0
-else
-        export DISPLAY=:0.0
-fi
 
 # How many characters of the $PWD should be kept
 export pwd_length=30
